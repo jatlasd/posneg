@@ -9,6 +9,37 @@
   </head>
   <body>
 
+    <div class="container">
+        <div class="top">
+            <div class="balance-div">
+                <h2>Current Balance:</h1>
+                <h2 id="current-balance">$400</h2>
+            </div>
+            <div class="input-div">
+                <input type="text" step=".01"id="input" placeholder="Transaction Amount">
+                <input type="text" id="desc" placeholder="Transaction Description">
+                <div class="input-and-buttons">
+                    <button id="deposit" class=" dwbtn">Deposit</button>
+                    <button id="withdrawal" class="dwbtn">Withdrawal</button>
+                </div>
+                <button id="add">Add Transaction</button>
+            </div>
+        </div>
+        <div id="transactions-display">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Deposit</th>
+                        <th scope="col">Withdrawal</th>
+                        <th scope="col">Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="table"></tbody>
+            </table>
+        </div>
+    </div>
 
     <script src="main.js"></script>
   </body>

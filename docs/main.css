@@ -1,0 +1,116 @@
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px;
+}
+
+#current-balance {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#desc {
+    width: 500px;
+    margin-top: 10px;
+}
+
+#transactions-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 28px;
+}
+
+thead {
+    border: 3px solid black;
+}
+
+thead th {
+    background-color: rgb(210, 210, 210);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #6d6d6d;
+}
+
+th:nth-child(1),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5) {
+    width: 10%;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #9a9a9a;
+    text-align: left;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+td {
+    font-weight: bold;
+}
+
+.dwbtn {
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#add {
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.deposit-selected {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+}
+
+.withdrawal-selected {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
