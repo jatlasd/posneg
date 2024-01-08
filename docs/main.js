@@ -76,9 +76,9 @@ function addTransaction(e) {
         balance += input;
     } else {
         dep.innerText = '';
-        withd.innerHTML = `$${input.toFixed(2)}`;
+        withd.innerHTML = `-$${input.toFixed(2)}`;
         withd.className = 'negative';
-        bal.innerHTML = `$${(balance - input).toFixed(2)}`;
+        bal.innerHTML = `${(balance - input).toFixed(2)}`;
         balance -= input;
     }
 
