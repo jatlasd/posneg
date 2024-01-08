@@ -66,7 +66,7 @@ function addTransaction(e) {
     let bal = document.createElement('td');
 
     date.innerText = today;
-    description.innerText = desc.value;
+    description.innerText = `  ${desc.value}`;
 
     if (isDeposit) {
         dep.innerHTML = `$${input.toFixed(2)}`;
