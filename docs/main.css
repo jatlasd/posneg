@@ -161,3 +161,12 @@ button:hover {
     color: white;
     border: 2px solid black;
 }
+
+.hidden {
+    display: none;
+}
+
+#init-bal {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

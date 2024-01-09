@@ -9,7 +9,7 @@ let desc = document.getElementById('desc');
 
 
 
-let balance = 400;
+let balance = 0;
 let transactionType = '';
 
 deposit.addEventListener('click', function() {
