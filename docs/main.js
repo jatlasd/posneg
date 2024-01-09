@@ -69,7 +69,7 @@ function addTransaction(e) {
     description.innerText = `  ${desc.value}`;
 
     if (isDeposit) {
-        dep.innerHTML = `$${input.toFixed(2)}`;
+        dep.innerHTML = `+$${input.toFixed(2)}`;
         dep.className = 'positive';
         withd.innerText = '';
         bal.innerHTML = `$${(balance + input).toFixed(2)}`;
